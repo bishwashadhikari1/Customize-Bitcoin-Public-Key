@@ -3,11 +3,13 @@ import threading
 from combinations import combinations, trywallet
 
 def runthreads():
+    # function leveraging thread to run tasks simultaneously
 
-    f = open('privatepublickeys.txt', 'a')
+    keywords = combinations() # retrieves and stores list of possible keywords to satisfy requirement
 
-    keywords = combinations()
 
+    # basically threads 
+    
     t1 = threading.Thread(target=trywallet, args=[keywords])
 
     t2 = threading.Thread(target=trywallet, args=[keywords])

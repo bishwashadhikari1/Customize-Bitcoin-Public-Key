@@ -1,3 +1,3 @@
 from runnablethreads import runthreads
 
-runthreads()
+runthreads() # basically runs the actual program

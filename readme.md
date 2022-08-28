@@ -74,3 +74,12 @@ This is an example of how to list things you need to use the software and how to
    ```
 <br />
 BTC donation address : 1NsFwfz76nJR1ToweUTDTYDGYSnseNBB4w
+
+<br />
+
+## Future Works
+* Manually choose number of threads to run.
+* Search for multiple keywords simultaneously.
+* Option to choose exact word or mutants.
+* an option to choose strict keyword placement (beginning at second character of address after '1')
+* Optimise combination finders for mutants
